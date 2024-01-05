@@ -1,0 +1,38 @@
+# ------ root_path ------
+root_path: ''
+
+# ------ Load Cache and Features ------
+load_pre_feat: True
+
+# ------ Hyperparamters ------
+search_hp: True
+search_scale: [13, 13]
+search_step: [200, 20]
+
+Lambda: 1
+Omega: 2
+Alpha: 0.01
+Beta: 0.3
+
+gpt3_prompt_file: './gpt_file/dtd_prompt.json'
+
+# ------ Basic Config ------
+dataset: 'dtd'
+shots: 1
+clip_backbone: 'RN50'
+dino_backbone: 'resnet50'
+num_classes: 47
+
+# ------ Dalle Dataset -----
+dalle_dataset: 'dalle_dtd'
+dalle_shots: 8
+
+lr: 0.001
+train_epoch: 31
+
+# ------ Open World ------
+openset: 'openset'
+open_world: 
+  is_open_world: True  # True or False
+  clean_dataset: False # True or False
+  nlb: 0.3 # noise label

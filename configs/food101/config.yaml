@@ -1,0 +1,38 @@
+# ------ root_path ------
+root_path: ''
+
+# ------ Load Cache and Features ------
+load_pre_feat: True
+
+# ------ Hyperparamters ------
+search_hp: True
+search_scale: [20, 10]
+search_step: [200, 20]
+
+Lambda: 1
+Omega: 0.2
+Alpha: 0.01
+Beta: 0.3
+
+gpt3_prompt_file: './gpt_file/food101_prompt.json'
+
+# ------ Basic Config ------
+dataset: 'food-101'
+shots: 1
+clip_backbone: 'RN50'
+dino_backbone: 'resnet50'
+num_classes: 101
+
+# ------ Dalle Dataset -----
+dalle_dataset: 'dalle_food'
+dalle_shots: 8
+
+lr: 0.001
+train_epoch: 70
+
+# ------ Open World ------
+openset: 'openset'
+open_world: 
+  is_open_world: True  # True or False
+  clean_dataset: True # True or False
+  nlb: 0.3 # noise label

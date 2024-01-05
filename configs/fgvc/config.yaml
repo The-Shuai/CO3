@@ -1,0 +1,38 @@
+# ------ root_path ------
+root_path: ''
+
+# ------ Load Cache and Features ------
+load_pre_feat: True
+
+# ------ Hyperparamters ------
+search_hp: True
+search_scale: [30, 30]
+search_step: [200, 20]
+
+Lambda: 1
+Omega: 1
+Alpha: 0.01
+Beta: 0.3
+
+gpt3_prompt_file: './gpt_file/fgvc_prompt.json'
+
+# ------ Basic Config ------
+dataset: 'fgvc'
+shots: 1
+clip_backbone: 'RN50'
+dino_backbone: 'resnet50'
+num_classes: 100
+
+# ------ Dalle Dataset -----
+dalle_dataset: 'dalle_fgvc'
+dalle_shots: 8
+
+lr: 0.001
+train_epoch: 30
+
+# ------ Open World ------
+openset: 'openset'
+open_world: 
+  is_open_world: True  # True or False
+  clean_dataset: True # True or False
+  nlb: 0.3 # noise label
