@@ -21,13 +21,7 @@ pip install -r requirements.txt
 3. Download the DINO pre-trained model and place it in the "dino" directory.   
    e.g., "./dino/dino_resnet50_pretrain.pth".
 4. Download the datasets.
-5. Modify the **main_path** in the [main.py](https://github.com/The-Shuai/CO3/blob/main/main.py) file on line 22 to match the dataset you intend to validate.      
-   e.g., set the **main_path** to
-   ```
-   main_path = "./configs/imagenet/config.yaml"
-   ```
-6. Modify the **root_path** on the 2nd line of the **config.yaml** file corresponding to your dataset.    
-   e.g., within the "./configs/imagenet/config.yaml" file, update the **root_path** to
-   ```
-   "root_path: ./DATA/"
-   ```
+5. Modify the ```main_path``` in the [main.py](https://github.com/The-Shuai/CO3/blob/main/main.py) file on line 22 to match the dataset you intend to validate.      
+   e.g., set the ```main_path``` to ```main_path = "./configs/imagenet/config.yaml"```
+6. Modify the ```root_path``` on the 2nd line of the ```config.yaml``` file corresponding to your dataset.    
+   e.g., within the ```./configs/imagenet/config.yaml``` file, update the ```root_path``` to ```root_path: "./DATA/"```
