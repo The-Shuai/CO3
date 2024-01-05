@@ -29,5 +29,5 @@ pip install -r requirements.txt
 6. Modify the **root_path** on the 2nd line of the **config.yaml** file corresponding to your dataset.    
    e.g., within the "./configs/imagenet/config.yaml" file, update the **root_path** to
    ```
-   "./DATA/"
+   "root_path: ./DATA/"
    ```
