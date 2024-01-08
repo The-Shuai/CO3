@@ -12,6 +12,8 @@ Motivated by this perspective, we introduce the **C**ollaborative C**o**nsortium
 Only the adapter’s parameters are adjustable, while the others remain frozen.
 Through collaboration among these foundation models, CO3 effectively unlocks their potential and unifies their capabilities to achieve state-of-the-art performance on 11 datasets.
 
+![图片1](https://github.com/The-Shuai/CO3/assets/56874070/e6f9854b-5d75-4da9-98fd-9c93fdde7fc2)
+
 ## Get Started
 1. Create a conda environment and install dependencies.
 ```
