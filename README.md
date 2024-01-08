@@ -25,3 +25,20 @@ pip install -r requirements.txt
    e.g., set the ```main_path``` to ```main_path = "./configs/imagenet/config.yaml"```
 6. Modify the ```root_path``` on the 2nd line of the ```config.yaml``` file corresponding to your dataset.    
    e.g., within the ```./configs/imagenet/config.yaml``` file, update the ```root_path``` to ```root_path: "./DATA/"```
+7. Run
+```
+CUDA_VISIBLE_DEVICES=0 python main.py
+```
+
+## Acknowledgement
+This repo benefits from [CaFo](https://github.com/OpenGVLab/CaFo?tab=readme-ov-file), [CLIP](https://github.com/openai/CLIP), [DINO](https://github.com/facebookresearch/dino), and [DALL-E](https://github.com/borisdayma/dalle-mini). Thanks for their wonderful work.
+
+## Citation
+```
+@inproceedings{shao2024Collaborative,
+  title={Collaborative Consortium of Foundation Models for Open-World Few-Shot Learning},
+  author={Shao, Shuai and Bai, Yu and Wang, Yan and Liu, Baodi and Liu, Bin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2024}
+}
+```
