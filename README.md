@@ -19,7 +19,7 @@ Through collaboration among these foundation models, CO3 effectively unlocks the
 ```
 pip install -r requirements.txt
 ```
-2. Download the "cache" folder from [here]([https:](https://drive.google.com/file/d/1cgIj_ZZUndLVbmVU-XxwySyV29fkl_I6/view?usp=drive_link) and place it in the root directory.
+2. Download the "cache" folder from [here](https://drive.google.com/file/d/1cgIj_ZZUndLVbmVU-XxwySyV29fkl_I6/view?usp=drive_link) and place it in the root directory.
 3. Download the DINO pre-trained model from [here](https://dl.fbaipublicfiles.com/dino/dino_resnet50_pretrain/dino_resnet50_pretrain.pth) and place it in the "dino" directory.   
    e.g., "./dino/dino_resnet50_pretrain.pth".
 4. Follow [Download_OFSL_Datasets.md](https://github.com/The-Shuai/CO3/blob/main/Download_OFSL_Datasets.md) to download the datasets.
