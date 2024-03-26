@@ -10,7 +10,6 @@ Motivated by this perspective, we introduce the **C**ollaborative C**o**nsortium
 (1) the Label Correction Block (LC-Block) corrects unreliable labels, (2) the Data Augmentation Block (DA-Block) enhances available data, 
 (3) the Feature Extraction Block (FE-Block) extracts multi-modal features, and (4) the Text-guided Fusion Adapter (TeFu-Adapter) integrates multiple features while mitigating the impact of noisy labels through semantic constraints. 
 Only the adapter’s parameters are adjustable, while the others remain frozen.
-Through collaboration among these foundation models, CO3 effectively unlocks their potential and unifies their capabilities to achieve state-of-the-art performance on 11 datasets.
 
 ![图片1](https://github.com/The-Shuai/CO3/assets/56874070/e6f9854b-5d75-4da9-98fd-9c93fdde7fc2)
 
@@ -40,7 +39,7 @@ This repo benefits from [CaFo](https://github.com/OpenGVLab/CaFo?tab=readme-ov-f
 @inproceedings{shao2024Collaborative,
   title={Collaborative Consortium of Foundation Models for Open-World Few-Shot Learning},
   author={Shao, Shuai and Bai, Yu and Wang, Yan and Liu, Baodi and Liu, Bin},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year={2024}
 }
 ```
