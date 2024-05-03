@@ -39,7 +39,7 @@ This repo benefits from [CaFo](https://github.com/OpenGVLab/CaFo?tab=readme-ov-f
 @inproceedings{shao2024collaborative,
   title={Collaborative Consortium of Foundation Models for Open-World Few-Shot Learning},
   author={Shao, Shuai and Bai, Yu and Wang, Yan and Liu, Baodi and Liu, Bin},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   volume={38},
   number={5},
   pages={4740--4747},
