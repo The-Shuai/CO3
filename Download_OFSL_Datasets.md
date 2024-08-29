@@ -75,5 +75,5 @@ $DATA/
     – split_dalle_flower.json
 ```
 
-Follow [Tip-Adapter/DATASET.md](https://github.com/gaopengcuhk/Tip-Adapter/blob/main/DATASET.md) to download the original images, download the dalle images from [here](https://drive.google.com/drive/folders/1e249OgUFCmpfEDPsxCVR-nNb6Q1VaZVW), and download the split from [here](https://drive.google.com/file/d/1qduqegirZTDD8C2Sm08cMHLEe-mf4i95/view?usp=drive_link).
+Follow [Tip-Adapter/DATASET.md](https://github.com/gaopengcuhk/Tip-Adapter/blob/main/DATASET.md) to download the original images, download the dalle images from [here](https://drive.google.com/file/d/1GPx2NL4CKCzZZ0g-XzT9nkKTehvxpul8/view?usp=sharing), and download the split from [here](https://drive.google.com/file/d/1qduqegirZTDD8C2Sm08cMHLEe-mf4i95/view?usp=drive_link).
 
